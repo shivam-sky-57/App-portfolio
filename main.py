@@ -9,6 +9,11 @@ with col1:
 with col2:
     st.title("Ardit Sulce")
     content = """
-    Hi, I am Ardit! I am a Python programmmer, techer, and founder of PythonNow.
+    Hi, I am Ardit! I am a Python programmer, teacher, and founder of PythonNow.
     """
     st.info(content)
+
+content2 = """
+Below you can find some of the apps I have built in Python. Feel freem to contact me!
+"""
+st.write(content2)
